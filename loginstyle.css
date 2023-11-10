@@ -1,0 +1,21 @@
+body{
+  background:linear-gradient(45deg, #010103, #13131a, #009688);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.card-panel{
+  width: 400px;
+  height: 700px;
+  padding: 20px 25px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 1.5rem rgb(143, 143, 140);
+  overflow: auto;
+  margin-top: 7rem;
+}
+
+.card-panel:hover{
+  box-shadow: 0 0 1rem 1px white;
+}

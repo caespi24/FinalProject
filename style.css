@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+  font-family: sans-serif;
+  background-color: #010103;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+  width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #009688;
+  border-radius: 5rem;
+}
+
+span{
+  color: #009688;
+}
+
+nav{
+  height: 6rem;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+nav ul{
+  margin-top: 15px;
+  margin-right: -200px;
+}
+
+nav ul li a{
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px 15px -115px 15px;
+  transition: .2s linear;
+}
+
+nav ul a:hover{
+  color: #009688;
+  box-shadow: 0 0 1rem 1rem white;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  color: white;
+}
+
+nav .sidenav-trigger i{
+  margin-top: 1rem;
+}
+
+nav .sidenav-trigger i:hover{
+  color: #009688;
+}
+
+.fixed-action-btn{
+  position: absolute;
+  top: 12px;
+  margin-right: -10rem;  
+}
+
+.fixed-action-btn ul{
+  margin-right: -5rem;
+  margin-top: -.35rem;
+}
+
+.btn-floating.btn-large i {
+  background-color: #009688;
+}
+
+.btn-floating.btn-large i:hover {
+  background-color: cyan;
+}
+
+.sidenav{
+  background-color: #010103;
+}
+
+.sidenav li>a{
+  color: white;
+  transition: .2s linear;
+}
+
+.sidenav li>a:hover{
+  color:#009688;
+  border-bottom: 1px solid #009688;
+}
+
+.sidenav li>a>i.material-icons{
+  color: white;
+  transition: .2s linear;
+}
+
+.brand-logo img{
+  height: 6rem;
+  border-style: none;
+}
+
+
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.home .container{
+  /* margin:0 65rem 10rem 10rem; */
+  margin-top: -20rem;
+}
+
+.home .container h1{
+  font-weight: bold;
+  margin-bottom: -1.5rem;
+}
+
+.home .container p{
+  font-size: 1.135rem;
+}
+
+.btn{
+  width: 200px;
+  margin: .5rem .5rem;
+  padding: .5rem 0 3rem 0;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 50px;
+  border: .1rem solid #009688;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #009688;
+}
+
+.card-panel{
+  background-color: #13131a;
+  height: 35rem;
+  margin: 0;
+  overflow-x: hidden;
+  scrollbar-width: 1rem;
+}
+
+
+.card-panel p{
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.card-panel.img{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.products .container .carousel{
+  border: 1px solid #009688;
+  border-radius: 15px;
+  padding: 15rem 0;
+}
+
+.modal{
+  border-radius: 20px;
+  margin: 6rem auto ;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.modal h3{
+  color: black;
+}
+
+.modal p{
+  color: black;
+}
+
+.card-panel.img1{
+  background-image: url(images/pf1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img2{
+  background-image: url(images/pf2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img3{
+  background-image: url(images/pf3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img4{
+  background-image: url(images/pf4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img5{
+  background-image: url(images/pf5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.pf{
+  background-color: transparent;
+}
