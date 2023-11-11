@@ -7,13 +7,21 @@ body{
 
 .card-panel{
   width: 400px;
-  height: 700px;
+  height: auto;
   padding: 20px 25px;
   background: white;
   border-radius: 20px;
   box-shadow: 0 0 1.5rem rgb(143, 143, 140);
   overflow: auto;
   margin-top: 7rem;
+}
+
+.section{
+  padding: 5rem 0;
+}
+
+.login-btn{
+  border-radius: 100px;
 }
 
 .card-panel:hover{
