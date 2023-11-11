@@ -28,14 +28,39 @@
       <nav class="black">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><img src="images/logo.png" alt=""></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="#home">HOME</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#products">PRODUCTS</a></li>
-              <li><a href="#review">REVIEW</a></li>
-            </ul> -->
+            <a href="#!" class="brand-logo"><img src="images/logo.png" class="hide-on-med-only" alt=""></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger hide-on-med-only"><i class="material-icons">menu</i></a>
+            <div class="container">
+                <ul id="nav-mobile" class="show-on-medium hide-on-small-only hide-on-large-only med-screen">
+                  <div class="row row-med-screen">
+                    <div class="col m2">
+                      <li>
+                        <a href="#home">HOME</a>
+                      </li>
+                    </div>
+                    <div class="col m2">
+                      <li>
+                        <a href="#about">ABOUT</a>
+                      </li>
+                    </div>
+                    <div class="col m2">
+                      <a href="#!" class="brand-logo med-screen-img">
+                        <img src="images/logo.png" alt="">
+                      </a>
+                    </div>
+                    <div class="col m2">
+                      <li>
+                        <a href="#products">PRODUCTS</a>
+                      </li>
+                    </div>
+                    <div class="col m2">
+                      <li>
+                        <a href="#review">REVIEW</a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+            </div>
             <div class="fixed-action-btn click-to-toggle">
               <a class="btn-floating btn-large red hide-on-med-and-down" id="nav-mobile">
                 <i class="large material-icons">menu</i>
@@ -47,11 +72,11 @@
                 <li><a href="#review" class="blue"><i class="material-icons right">rate_review</i>REVIEW</a></li>
               </ul> -->
               <ul>
-                <li><a href="#home" class="btn-floating green"><i class="material-icons right">home</i></a></li>
-                <li><a href="#about" class="btn-floating yellow darken-3"><i class="material-icons right">info</i></a></li>
-                <li><a href="#products" class="btn-floating blue"><i class="material-icons right">shopping_cart</i></a></li>
-                <li><a href="#review" class="btn-floating purple"><i class="material-icons right">rate_review</i></a></li>
-                <li><a href="index.html" class="btn-floating red"><i class="material-icons right">logout</i></a></li>
+                <li><a href="#home" class="btn-floating hide-on-med-and-down green"><i class="material-icons right">home</i></a></li>
+                <li><a href="#about" class="btn-floating hide-on-med-and-down yellow darken-3"><i class="material-icons right">info</i></a></li>
+                <li><a href="#products" class="btn-floating hide-on-med-and-down blue"><i class="material-icons right">shopping_cart</i></a></li>
+                <li><a href="#review" class="btn-floating hide-on-med-and-down purple"><i class="material-icons right">rate_review</i></a></li>
+                <li><a href="index.html" class="btn-floating hide-on-med-and-down red"><i class="material-icons right">logout</i></a></li>
               </ul>
             </div>
           </div>
@@ -111,14 +136,14 @@
     <div class="container">
       <h2 class="center-align">for Men</h2>
       <div class="carousel">
-        <a href="#modal1" class="modal-trigger carousel-item"><img src="images/pf1.jpg" class="responsive-img" alt=""></a>
-        <a href="#modal2" class="modal-trigger carousel-item"><img src="images/pf2.jpg" class="responsive-img" alt=""></a>
-        <a href="#modal3" class="modal-trigger carousel-item"><img src="images/pf3.jpg" class="responsive-img" alt=""></a>
-        <a href="#modal4" class="modal-trigger carousel-item"><img src="images/pf4.jpg" class="responsive-img" alt=""></a>
-        <a href="#modal5" class="modal-trigger carousel-item"><img src="images/pf5.jpg" class="responsive-img" alt=""></a>
+        <a href="#modal1" class="modal-trigger carousel-item"><img src="images/pf1.jpg" height="250px" alt=""></a>
+        <a href="#modal2" class="modal-trigger carousel-item"><img src="images/pf2.jpg" height="250px" alt=""></a>
+        <a href="#modal3" class="modal-trigger carousel-item"><img src="images/pf3.jpg" height="250px" alt=""></a>
+        <a href="#modal4" class="modal-trigger carousel-item"><img src="images/pf4.jpg" height="250px" alt=""></a>
+        <a href="#modal5" class="modal-trigger carousel-item"><img src="images/pf5.jpg" height="250px" alt=""></a>
       </div>
 
-      <!-- Modal for images-->
+      <!-- Modal for Men images-->
     
       <!-- First image-->
       <div id="modal1" class="modal">
@@ -130,7 +155,8 @@
             </div>
             <div class="col s11 m12 l6">
               <div class="card-panel pf">
-                <h3 class="center-align">Versace Eros</h3>
+                <h3 class="center-align">Versace</h3>
+                <h4 class="center-align">Eros</h4>
                 <p>Versace Eros is a fragrance for a strong, passionate man, who is master of himself. Eros interprets the sublime masculine through a luminous aura with an intense, vibrant, and glowing combination of fresh mint leaves, Italian lemon zest, and green apple.</p>
               </div>
             </div>
@@ -148,7 +174,8 @@
             </div>
             <div class="col s11 m12 l6">
               <div class="card-panel pf">
-                <h3 class="center-align">Versace Eros</h3>
+                <h3 class="center-align">Versace</h3>
+                <h4 class="center-align">Eros</h4>
                 <p>Versace Eros is a fragrance for a strong, passionate man, who is master of himself. Eros interprets the sublime masculine through a luminous aura with an intense, vibrant, and glowing combination of fresh mint leaves, Italian lemon zest, and green apple.</p>
               </div>
             </div>
@@ -166,8 +193,9 @@
             </div>
             <div class="col s11 m12 l6">
               <div class="card-panel pf">
-                <h3 class="center-align">Park Avenue Euphoria</h3>
-                <p>Be the man who makes a difference, at work, home and everywhere you go with this Park Avenue Euphoria solid perfume for men. These fresh, sensually aromatic perfume for men is a must-have for all. Stay energetic all day long with this perfume and let your magnetic presence be felt. The premium scent of Park Avenue Euphoria gives the wearer unique and intense confidence of ruling the room with their mere presence. The exotic mix of Conquer EDP features fresh citrus notes blended with exotic spices and woody Vanilla base to capture the essence of timeless masculinity crafted for the men born to rule. This body mist is the perfect gift for family and friends. This body spray works as a perfect option for Christmas gift, New Year gift, Diwali gift or birthday gift, anniversary gift etc. It’s masculine fragrance an instant favourite in the crowd. It fits perfectly for every occasion and lasts long.</p>
+                <h3 class="center-align">Park Avenue</h3>
+                <h4 class="center-align">Euphoria</h4>
+                <p>Be the man who makes a difference, at work, home and everywhere you go with this Park Avenue Euphoria solid perfume for men. These fresh, sensually aromatic perfume for men is a must-have for all. Stay energetic all day long with this perfume and let your magnetic presence be felt. The premium scent of Park Avenue Euphoria gives the wearer unique and intense confidence of ruling the room with their mere presence. The exotic mix of Conquer EDP features fresh citrus notes blended with exotic spices and woody Vanilla base to capture the essence of timeless masculinity crafted for the men born to rule. This body mist is the perfect gift for family and friends. This body spray works as a perfect option for Christmas gift, New Year gift, Diwali gift or birthday gift, anniversary gift etc. It's masculine fragrance an instant favourite in the crowd. It fits perfectly for every occasion and lasts long.</p>
               </div>
             </div>
           </div>
@@ -184,8 +212,9 @@
             </div>
             <div class="col s11 m12 l6">
               <div class="card-panel pf">
-                <h3 class="center-align">Versace Eros</h3>
-                <p>Versace Eros is a fragrance for a strong, passionate man, who is master of himself. Eros interprets the sublime masculine through a luminous aura with an intense, vibrant, and glowing combination of fresh mint leaves, Italian lemon zest, and green apple.</p>
+                <h3 class="center-align">Hugo Boss</h3>
+                <h4 class="center-align">Boss The Scent Private Accord</h4>
+                <p>Boss The Scent Private Accord by Hugo Boss is a Amber Woody fragrance for men. Boss The Scent Private Accord was launched in 2018. The nose behind this fragrance is Bruno Jovanovic. Top notes are Ginger and Bergamot; middle notes are Maninka, Coffee, Pepper and Pineapple; base notes are Cacao, Woody Notes, Vanilla, Patchouli, Amberwood and Benzoin.</p>
               </div>
             </div>
           </div>
@@ -202,8 +231,9 @@
             </div>
             <div class="col s11 m12 l6">
               <div class="card-panel pf">
-                <h3 class="center-align">Versace Eros</h3>
-                <p>Versace Eros is a fragrance for a strong, passionate man, who is master of himself. Eros interprets the sublime masculine through a luminous aura with an intense, vibrant, and glowing combination of fresh mint leaves, Italian lemon zest, and green apple.</p>
+                <h3 class="center-align">Diesel</h3>
+                <h4 class="center-align">Fuel For Life</h4>
+                <p>Fuel For Life by Diesel. This is a fresh, floral and woody fragrance for men. It contains of grapefruit, anise, lavender, raspberry, woodsy notes and heliotrope.</p>
               </div>
             </div>
           </div>
@@ -212,12 +242,110 @@
 
       <h2 class="center-align">for Women</h2>
       <div class="carousel">
-        <a href="#one!" class="carousel-item"><img src="images/pf1.jpg" class="responsive-img" alt=""></a>
-        <a href="#two!" class="carousel-item"><img src="images/pf2.jpg" class="responsive-img" alt=""></a>
-        <a href="#three!" class="carousel-item"><img src="images/pf3.jpg" class="responsive-img" alt=""></a>
-        <a href="#four!" class="carousel-item"><img src="images/pf4.jpg" class="responsive-img" alt=""></a>
-        <a href="#five!" class="carousel-item"><img src="images/pf5.jpg" class="responsive-img" alt=""></a>
+        <a href="#modal6" class="modal-trigger carousel-item"><img src="images/pf6.jpg" height="250px" alt=""></a>
+        <a href="#modal7" class="modal-trigger carousel-item"><img src="images/pf7.jpg" height="250px" alt=""></a>
+        <a href="#modal8" class="modal-trigger carousel-item"><img src="images/pf8.jpg" height="250px" alt=""></a>
+        <a href="#modal9" class="modal-trigger carousel-item"><img src="images/pf9.jpg" height="250px" alt=""></a>
+        <a href="#modal10" class="modal-trigger carousel-item"><img src="images/pf10.jpg" height="250px" alt=""></a>
       </div>
+
+      <!-- Modal for Women images-->
+    
+      <!-- First image-->
+      <div id="modal6" class="modal">
+        <div class="modal-content center">
+          <div class="row">
+            <div class="col s11 m6 l6 offset-m3">
+              <div class="card-panel img6">
+              </div>
+            </div>
+            <div class="col s11 m12 l6">
+              <div class="card-panel pf">
+                <h3 class="center-align">Versace</h3>
+                <h4 class="center-align">Bright Crystal</h4>
+                <p>Bright Crystal by Versace is a Floral Fruity fragrance for women. Bright Crystal was launched in 2006. The nose behind this fragrance is Alberto Morillas. Top notes are Yuzu, Pomegranate and Ice; middle notes are Peony, Lotus and Magnolia; base notes are Musk, Mahogany and Amber.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second image -->
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col s11 m6 l6 offset-m3">
+              <div class="card-panel img7">
+              </div>
+            </div>
+            <div class="col s11 m12 l6">
+              <div class="card-panel pf">
+                <h3 class="center-align">Calvin Klein</h3>
+                <h4 class="center-align">Obsession</h4>
+                <p>Obsession by Calvin Klein is a Amber Spicy fragrance for women. Obsession was launched in 1985. The nose behind this fragrance is Jean Guichard. Top notes are Vanilla, Basil, Bergamot, Mandarin Orange, Green Notes, Peach and Lemon; middle notes are Spices, Sandalwood, Coriander, Oakmoss, Cedar, Orange Blossom, Jasmine and Rose; base notes are Amber, Incense, Vanilla, Civet, Musk and Vetiver.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third image -->
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col s11 m6 l6 offset-m3">
+              <div class="card-panel img8">
+              </div>
+            </div>
+            <div class="col s11 m12 l6">
+              <div class="card-panel pf">
+                <h3 class="center-align">Calvin Klein</h3>
+                <h4 class="center-align">Escape</h4>
+                <p>Escape by Calvin Klein is a Floral Aquatic fragrance for women. Escape was launched in 1991. The nose behind this fragrance is Claude Dir. Top notes are Melon, Chamomile, Marigold, Tagetes, Apricot, Hiacynth, Oakmoss, Apple, Coriander, Mandarin Orange, Ylang-Ylang, Black Currant, Litchi and Cassia; middle notes are Peach, Lily-of-the-Valley, Carnation, Rose, Jasmine and Cloves; base notes are Oakmoss, Musk, Sandalwood, Amber, Vetiver, Cedar and Vanilla.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth image -->
+      <div id="modal9" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col s11 m6 l6 offset-m3">
+              <div class="card-panel img9">
+              </div>
+            </div>
+            <div class="col s11 m12 l6">
+              <div class="card-panel pf">
+                <h3 class="center-align">Versace</h3>
+                <h4 class="center-align">Versace Pour Femme Dylan Turquoise</h4>
+                <p>Versace Pour Femme Dylan Turquoise by Versace is a Floral Fruity fragrance for women. Versace Pour Femme Dylan Turquoise was launched in 2020. The nose behind this fragrance is Sophie Labbe. Top notes are Lemon, Mandarin Orange and Pink Pepper; middle notes are Guava, Freesia, Cassis and Jasmine; base notes are Clearwood, Musk and Cedar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fifth image -->
+      <div id="modal10" class="modal">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col s11 m6 l6 offset-m3">
+              <div class="card-panel img10">
+              </div>
+            </div>
+            <div class="col s11 m12 l6">
+              <div class="card-panel pf">
+                <h3 class="center-align">Clinique</h3>
+                <h4 class="center-align">Aromatics Elixir</h4>
+                <p>Aromatics Elixir by Clinique is a Chypre Floral fragrance for women. Aromatics Elixir was launched in 1971. The nose behind this fragrance is Bernard Chant. Top notes are Chamomile, Aldehydes, Clary Sage, Coriander, Geranium, Lemon Verbena, Brazilian Rosewood and Bergamot; middle notes are Carnation, Rose, Ylang-Ylang, Orris Root, Jasmine, Tuberose and Orange Blossom; base notes are Oakmoss, Patchouli, Incense, Vetiver, Sandalwood and Musk.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </div>
 
   <!-- Review Section -->
@@ -227,9 +355,78 @@
     <h1 class="center"><span>CUSTOMER</span> REVIEWS</h1>
   </div>
 
-  <div style="height: 1000px;"></div>
+  <!-- Slider for Review Section -->
+  <div class="container">
+    <div class="slider">
+      <ul class="slides">
+        <!-- First Slide -->
+        <li>
+          <img src="images/cs1.jpg" alt="">
+          <div class="caption left-align">
+            <div class="card-panel cs-review">
+              <h3 class="cs-name">Sana Family</h3>
+              <p class="cs-comment">I've ordered from Van Dacy in the past. My husband and I love their products. I received mine with out a lid. That wasn't a problem for me. I just wanted the perfume inside the bottle. My last purchase is a Christmas present but it's the same as the one that I bought for my husband and he loves it. I believe that this one will be loved as well. I will order again. Thank you Van Dacy.</p>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star_half</i></a>
+            </div>
+          </div>
+        </li>
+        <!-- Second Slide -->
+        <li>
+          <img src="images/cs2.jpg" alt="">
+          <div class="caption center-align">
+            <div class="card-panel cs-review">
+              <h3 class="cs-name">Sergio</h3>
+              <p class="cs-comment">Ordering was easy delivery was great products available everything works out great this was second time ordering Noth times everything came on time very satisfied have recommended you to friend thanks</p>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+            </div>
+          </div>
+        </li>
+        <!-- Third Slide -->
+        <li>
+          <img src="images/cs3.jpg" alt="">
+          <div class="caption right-align">
+            <div class="card-panel cs-review">
+              <h3 class="cs-name">Ethan</h3>
+              <p class="cs-comment">The quality and authenticity of Van Dacy's products are nothing short of amazing. I couldn't be happier. The only thing that I'm hugely disappointed by is the two-and-a-half week delivery time. Otherwise, everything else is superb.</p>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+              <a href=""><i class="material-icons yellow-text cs-rate">star</i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <br><br><br>
 
-  
+  <!-- Footer -->
+  <div class="divider"></div>
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="flow-text">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a href="https://github.com/caespi24" class="grey-text"><i class="fa-brands fa-github"></i>  Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Jquery CDN -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <!-- Compiled and minified JavaScript -->

@@ -81,6 +81,14 @@ nav .sidenav-trigger i:hover{
   background-color: cyan;
 }
 
+.med-screen-img img{
+  padding-bottom: 1.5rem;
+}
+
+.row-med-screen{
+  margin-left: -5%;
+}
+
 .sidenav{
   background-color: #010103;
 }
@@ -182,7 +190,7 @@ h2{
   padding-top: 1.5rem;
 }
 
-.modal h3{
+.modal h3, h4{
   color: black;
 }
 
@@ -220,6 +228,61 @@ h2{
   background-position: center;
 }
 
+.card-panel.img6{
+  background-image: url(images/pf6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img7{
+  background-image: url(images/pf7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img8{
+  background-image: url(images/pf8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img9{
+  background-image: url(images/pf9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img10{
+  background-image: url(images/pf10.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-panel.img11{
+  background-image: url(images/augustin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .card-panel.pf{
   background-color: transparent;
+}
+
+.cs-review{
+  border-radius: 20px;
+  height: 300px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cs-name{
+  color: black;
+}
+
+.slider .slides li .caption p {
+  color: black;
+}
+
+.cs-rate{
+  background-color: #13131a;
 }

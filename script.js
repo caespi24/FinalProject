@@ -24,22 +24,8 @@ $(document).ready(function(){
     direction: 'left'
   });
 
-  // // Initially hide the preloader
-  // $('#preloader').hide();
-
-  // // Listen for the button click
-  // $('#load-page').click(function(){
-  //   // Show the preloader
-  //   $('#preloader').show();
-  //   $('#load-page').hide();
-
-  //   // Set a timeout to simulate the loading process
-  //   setTimeout(function(){
-  //     // When the simulated loading is complete, hide the preloader
-  //     $('#preloader').hide();
-
-  //     // Load the new HTML file
-  //     window.location.href = 'FinalProject.html';
-  //   }, 3000);
-  // });
+  // Slider init
+  $('.slider').slider({
+    indicators: true
+  });
 });
