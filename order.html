@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/a4e8164e66.js" crossorigin="anonymous"></script>
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Website Icon -->
+  <link rel="icon" href="images/logo1.jpg">
+
+  <title>Order</title>
+</head>
+<body>
+  <!-- Navbar Heading -->
+  <header class="header">
+    <div class="navbar-fixed">
+      <nav class="black">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img src="images/logo.png" class="hide-on-med-only" alt=""></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger hide-on-med-only"><i class="material-icons">menu</i></a>
+            <div class="container">
+                <ul id="nav-mobile" class="show-on-medium hide-on-small-only hide-on-large-only med-screen">
+                  <div class="row row-med-screen">
+                    <div class="col m2">
+                      <li>
+                        <a href="FinalProject.html">HOME</a>
+                      </li>
+                    </div>
+                    <div class="col m2">
+                      <li>
+                        <a href="aboutUs.html">ABOUT</a>
+                      </li>
+                    </div>
+                    <div class="col m2">
+                      <a href="#!" class="brand-logo med-screen-img">
+                        <img src="images/logo.png" alt="">
+                      </a>
+                    </div>
+                    <div class="col m2">
+                      <li>
+                        <a href="order.html">PRODUCTS</a>
+                      </li>
+                    </div>
+                    <div class="col m2">
+                      <li>
+                        <a href="index.html">LOGOUT</a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+            </div>
+            <div class="fixed-action-btn click-to-toggle">
+              <a class="btn-floating btn-large red hide-on-med-and-down" id="nav-mobile">
+                <i class="large material-icons">menu</i>
+              </a>
+              <ul>
+                <li><a href="FinalProject.html" class="btn-floating hide-on-med-and-down green"><i class="material-icons">home</i></a></li>
+                <li><a href="aboutUs.html" class="btn-floating hide-on-med-and-down yellow darken-3"><i class="material-icons">info</i></a></li>
+                <li><a href="order.html" class="btn-floating hide-on-med-and-down blue"><i class="material-icons">shopping_cart</i></a></li>
+                <li><a href="index.html" class="btn-floating hide-on-med-and-down red"><i class="material-icons">logout</i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sidenav mobile view -->
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <div class="user-view">
+        <div class="background"><img src="images/background.jpg" class="responsive-img" alt=""></div>
+        <a href="#user"><i class="medium material-icons">account_circle</i></a>
+        <a href="#name"><span class="white-text name">User</span></a>
+        <a href="#email"><span class="white-text email">user01@gmail.com</span></a>
+    </div>
+  </li>
+  <!-- Collapsible for pages (sidenav) -->
+  <ul class="collapsible popout sidenav-color">
+    <li>
+      <div class="collapsible-header">
+        <a href="#" class="white-text"><i class="material-icons left sidenav-pages">pageview</i>Pages</a>
+      </div>
+      <div class="collapsible-body">
+        <ul class="pages-icons">
+          <li><a href="FinalProject.html"><i class="material-icons right">home</i>HOME</a></li>
+          <li><a href="aboutUs.html"><i class="material-icons right">info</i>ABOUT</a></li>
+          <li><a href="order.html"><i class="material-icons right">shopping_cart</i>PRODUCTS</a></li>
+          <li><a href="index.html"><i class="material-icons right">logout</i>LOGOUT</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+  </ul>
+
+  <!-- Order Homepage -->
+  <div class="section order-home">
+    <div class="container center">
+      <video class="video-background" autoplay muted loop plays-inline>
+        <source src="videos/vid1.mp4" type="video/mp4">
+      </video>
+      <h3 class="order-headline">AVAILABLE PERFUMES</h3>
+      <div class="card-panel home-panel">
+        <div class="carousel">
+          <a href="#" class="carousel-item"><img src="images/pf1.jpg" class="carousel-img" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf2.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf3.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf4.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf5.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf6.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf7.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf8.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf9.jpg" height="250px" alt=""></a>
+          <a href="#" class="carousel-item"><img src="images/pf10.jpg" height="250px" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Men Section -->
+  <div class="section men-section">
+    <h1 class="center-align"><span>Men</span> Section</h1>
+    <div class="container">
+      <div class="row">
+        <!-- Men Product 1 -->
+        <div class="col s12 m6 l4">
+          <div class="men-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel men-container-img1"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Versace Eros is a fragrance for a strong, passionate man, who is master of himself. Eros interprets the sublime masculine through a luminous aura with an intense, vibrant, and glowing combination of fresh mint leaves, Italian lemon zest, and green apple.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Versace</h4>
+                <h5>Eros</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star_half</i></a>
+                <h6>P990</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Men Product 2 -->
+        <div class="col s12 m6 l4">
+          <div class="men-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel men-container-img2"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Versace Eros is a fragrance for a strong, passionate man, who is master of himself. Eros interprets the sublime masculine through a luminous aura with an intense, vibrant, and glowing combination of fresh mint leaves, Italian lemon zest, and green apple.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Versace</h4>
+                <h5>Eros</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star_half</i></a>
+                <h6>P990</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Men Product 3 -->
+        <div class="col s12 m6 l4">
+          <div class="men-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel men-container-img3"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Be the man who makes a difference, at work, home and everywhere you go with this Park Avenue Euphoria solid perfume for men. These fresh, sensually aromatic perfume for men is a must-have for all. Stay energetic all day long with this perfume and let your magnetic presence be felt. The premium scent of Park Avenue Euphoria gives the wearer unique and intense confidence of ruling the room with their mere presence. The exotic mix of Conquer EDP features fresh citrus notes blended with exotic spices and woody Vanilla base to capture the essence of timeless masculinity crafted for the men born to rule. This body mist is the perfect gift for family and friends. This body spray works as a perfect option for Christmas gift, New Year gift, Diwali gift or birthday gift, anniversary gift etc. It's masculine fragrance an instant favourite in the crowd. It fits perfectly for every occasion and lasts long.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Park Avenue</h4>
+                <h5>Euphoria</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <h6>P1,120</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Men Product 4 -->
+        <div class="col s12 m6 l4">
+          <div class="men-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel men-container-img4"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Boss The Scent Private Accord by Hugo Boss is a Amber Woody fragrance for men. Boss The Scent Private Accord was launched in 2018. The nose behind this fragrance is Bruno Jovanovic. Top notes are Ginger and Bergamot; middle notes are Maninka, Coffee, Pepper and Pineapple; base notes are Cacao, Woody Notes, Vanilla, Patchouli, Amberwood and Benzoin.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Hugo Boss</h4>
+                <h5>The Scent Private Accord</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <h6>P760</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Men Product 5 -->
+        <div class="col s12 m6 l4">
+          <div class="men-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel men-container-img5"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Fuel For Life by Diesel. This is a fresh, floral and woody fragrance for men. It contains of grapefruit, anise, lavender, raspberry, woodsy notes and heliotrope.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Diesel</h4>
+                <h5>Fuel For Life</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <h6>P580</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Women Section -->
+  <div class="section women-section">
+    <h1 class="center-align"><span>Women</span> Section</h1>
+    <div class="container">
+      <div class="row">
+        <!-- Women Product 1 -->
+        <div class="col s12 m6 l4">
+          <div class="women-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel women-container-img1"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Bright Crystal by Versace is a Floral Fruity fragrance for women. Bright Crystal was launched in 2006. The nose behind this fragrance is Alberto Morillas. Top notes are Yuzu, Pomegranate and Ice; middle notes are Peony, Lotus and Magnolia; base notes are Musk, Mahogany and Amber.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Versace</h4>
+                <h5>Bright Crystal</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star_half</i></a>
+                <h6>P990</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Women Product 2 -->
+        <div class="col s12 m6 l4">
+          <div class="women-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel women-container-img2"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Obsession by Calvin Klein is a Amber Spicy fragrance for women. Obsession was launched in 1985. The nose behind this fragrance is Jean Guichard. Top notes are Vanilla, Basil, Bergamot, Mandarin Orange, Green Notes, Peach and Lemon; middle notes are Spices, Sandalwood, Coriander, Oakmoss, Cedar, Orange Blossom, Jasmine and Rose; base notes are Amber, Incense, Vanilla, Civet, Musk and Vetiver.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Calvin Klein</h4>
+                <h5>Obsession</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star_half</i></a>
+                <h6>P990</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Women Product 3 -->
+        <div class="col s12 m6 l4">
+          <div class="women-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel women-container-img3"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Escape by Calvin Klein is a Floral Aquatic fragrance for women. Escape was launched in 1991. The nose behind this fragrance is Claude Dir. Top notes are Melon, Chamomile, Marigold, Tagetes, Apricot, Hiacynth, Oakmoss, Apple, Coriander, Mandarin Orange, Ylang-Ylang, Black Currant, Litchi and Cassia; middle notes are Peach, Lily-of-the-Valley, Carnation, Rose, Jasmine and Cloves; base notes are Oakmoss, Musk, Sandalwood, Amber, Vetiver, Cedar and Vanilla.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Calvin Klein</h4>
+                <h5>Escape</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <h6>P1,120</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Women Product 4 -->
+        <div class="col s12 m6 l4">
+          <div class="women-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel women-container-img4"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Versace Pour Femme Dylan Turquoise by Versace is a Floral Fruity fragrance for women. Versace Pour Femme Dylan Turquoise was launched in 2020. The nose behind this fragrance is Sophie Labbe. Top notes are Lemon, Mandarin Orange and Pink Pepper; middle notes are Guava, Freesia, Cassis and Jasmine; base notes are Clearwood, Musk and Cedar.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Versace</h4>
+                <h5>Pour Femme Dylan Turquoise</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <h6>P760</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Women Product 5 -->
+        <div class="col s12 m6 l4">
+          <div class="women-container">
+            <div class="row center">
+              <div class="col s2 offset-s4 heart-box">
+                <div class="card-panel heart-panel">
+                  <i class="fa-solid fa-heart small"></i>
+                </div>
+              </div>
+              <div class="col s2 cart-box">
+                <div class="card-panel cart-panel">
+                  <i class="fa-solid fa-cart-plus small"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <div class="activator card-panel women-container-img5"></div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                    <p class="black-text">Aromatics Elixir by Clinique is a Chypre Floral fragrance for women. Aromatics Elixir was launched in 1971. The nose behind this fragrance is Bernard Chant. Top notes are Chamomile, Aldehydes, Clary Sage, Coriander, Geranium, Lemon Verbena, Brazilian Rosewood and Bergamot; middle notes are Carnation, Rose, Ylang-Ylang, Orris Root, Jasmine, Tuberose and Orange Blossom; base notes are Oakmoss, Patchouli, Incense, Vetiver, Sandalwood and Musk.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row center">
+              <div class="col s10 offset-s1">
+                <h4>Clinique</h4>
+                <h5>Aromatics Elixir</h5>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <a href=""><i class="material-icons yellow-text">star</i></a>
+                <h6>P580</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="divider"></div>
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Van Dacy</h5>
+          <blockquote class="footer-blockquote">
+            <p>Made by Van Dacy Corporation</p>
+          </blockquote>
+        </div>
+        <div class="col l3 offset-l3 s12">
+          <h5 class="white-text">Connect @ Github</h5>
+          <ul>
+            <li><a href="https://github.com/caespi24" class="grey-text"><i class="fa-brands fa-github"></i>  https://github.com/caespi24</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row center">
+          <p class="grey-text">© 2023 Copyright Text</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

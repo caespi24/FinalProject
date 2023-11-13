@@ -28,4 +28,10 @@ $(document).ready(function(){
   $('.slider').slider({
     indicators: true
   });
+
+  // Collapsible init
+  $('.collapsible').collapsible();
+
+  // Scrollspy init
+  $('.scrollspy').scrollSpy();
 });

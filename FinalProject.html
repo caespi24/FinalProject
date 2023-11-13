@@ -40,7 +40,7 @@
                     </div>
                     <div class="col m2">
                       <li>
-                        <a href="#about">ABOUT</a>
+                        <a href="aboutUs.html">ABOUT</a>
                       </li>
                     </div>
                     <div class="col m2">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col m2">
                       <li>
-                        <a href="#products">PRODUCTS</a>
+                        <a href="order.html">PRODUCTS</a>
                       </li>
                     </div>
                     <div class="col m2">
@@ -65,18 +65,12 @@
               <a class="btn-floating btn-large red hide-on-med-and-down" id="nav-mobile">
                 <i class="large material-icons">menu</i>
               </a>
-              <!-- <ul>
-                <li><a href="#home" class="red"><i class="material-icons right">home</i>HOME</a></li>
-                <li><a href="#about" class="yellow darken-3"><i class="material-icons right">info</i>ABOUT</a></li>
-                <li><a href="#products" class="green"><i class="material-icons right">shopping_cart</i>PRODUCTS</a></li>
-                <li><a href="#review" class="blue"><i class="material-icons right">rate_review</i>REVIEW</a></li>
-              </ul> -->
               <ul>
-                <li><a href="#home" class="btn-floating hide-on-med-and-down green"><i class="material-icons right">home</i></a></li>
-                <li><a href="#about" class="btn-floating hide-on-med-and-down yellow darken-3"><i class="material-icons right">info</i></a></li>
-                <li><a href="#products" class="btn-floating hide-on-med-and-down blue"><i class="material-icons right">shopping_cart</i></a></li>
-                <li><a href="#review" class="btn-floating hide-on-med-and-down purple"><i class="material-icons right">rate_review</i></a></li>
-                <li><a href="index.html" class="btn-floating hide-on-med-and-down red"><i class="material-icons right">logout</i></a></li>
+                <li><a href="#home" class="btn-floating hide-on-med-and-down green"><i class="material-icons">home</i></a></li>
+                <li><a href="aboutUs.html" class="btn-floating hide-on-med-and-down yellow darken-3"><i class="material-icons">info</i></a></li>
+                <li><a href="order.html" class="btn-floating hide-on-med-and-down blue"><i class="material-icons">shopping_cart</i></a></li>
+                <li><a href="#review" class="btn-floating hide-on-med-and-down purple"><i class="material-icons">rate_review</i></a></li>
+                <li><a href="index.html" class="btn-floating hide-on-med-and-down red"><i class="material-icons">logout</i></a></li>
               </ul>
             </div>
           </div>
@@ -87,22 +81,45 @@
 
   <!-- Sidenav mobile view -->
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="#home"><i class="material-icons right">home</i>HOME</a></li>
-    <li><a href="#about"><i class="material-icons right">info</i>ABOUT</a></li>
-    <li><a href="#products"><i class="material-icons right">shopping_cart</i>PRODUCTS</a></li>
-    <li><a href="#review"><i class="material-icons right">rate_review</i>REVIEW</a></li>
-    <li><a href="index.html"><i class="material-icons right">logout</i>LOGOUT</a></li>
+    <li>
+      <div class="user-view">
+        <div class="background"><img src="images/background.jpg" class="responsive-img" alt=""></div>
+        <a href="#user"><i class="medium material-icons">account_circle</i></a>
+        <a href="#name"><span class="white-text name">User</span></a>
+        <a href="#email"><span class="white-text email">user01@gmail.com</span></a>
+    </div>
+  </li>
+  <!-- Collapsible for pages (sidenav) -->
+  <ul class="collapsible popout sidenav-color">
+    <li>
+      <div class="collapsible-header">
+        <a href="#" class="white-text"><i class="material-icons left sidenav-pages">pageview</i>Pages</a>
+      </div>
+      <div class="collapsible-body">
+        <ul class="pages-icons">
+          <li><a href="#home"><i class="material-icons right">home</i>HOME</a></li>
+          <li><a href="aboutUs.html"><i class="material-icons right">info</i>ABOUT</a></li>
+          <li><a href="order.html"><i class="material-icons right">shopping_cart</i>PRODUCTS</a></li>
+          <li><a href="#review"><i class="material-icons right">rate_review</i>REVIEW</a></li>
+          <li><a href="index.html"><i class="material-icons right">logout</i>LOGOUT</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+    
   </ul>
 
 
   <!-- Home section -->
-  <div class="section home" id="home">
+  <div class="section scrollspy home" id="home">
     <div class="container center">
+      <video class="video-background" autoplay muted loop plays-inline>
+        <source src="videos/vid1.mp4" type="video/mp4">
+      </video>
       <h1>CHOOSE YOUR DESIRED PERFUME</h1>
       <p>This perfume shop will offer you the best quality of perfumes in afforadble prices.</p>
       <div>
-        <button class="waves-effect waves-light btn"><i class="fa-solid fa-cart-shopping"></i></button>
-        <!-- <button class="waves-effect waves-light btn">Women</button> -->
+        <a href="order.html" class="waves-effect waves-light btn"><i class="fa-solid fa-cart-shopping"></i></a>
       </div>
     </div>
   </div>
@@ -110,7 +127,7 @@
   <!-- About section -->
   <div id="about"></div>
   <br><br>
-  <div class="section about">
+  <div class="section scrollspy about">
     <h1 class="center-align"><span>ABOUT</span> US</h1>
     <div class="container">
       <div class="row center">
@@ -131,7 +148,7 @@
   <!-- Products section -->
   <div id="products"></div>
   <br><br>
-  <div class="section products">
+  <div class="section scrollspy products">
     <h1 class="center-align"><span>PRODUCTS</span> OVERVIEW</h1>
     <div class="container">
       <h2 class="center-align">for Men</h2>
@@ -351,7 +368,7 @@
   <!-- Review Section -->
   <div id="review"></div>
   <br><br>
-  <div class="section review">
+  <div class="section scrollspy review">
     <h1 class="center"><span>CUSTOMER</span> REVIEWS</h1>
   </div>
 
@@ -414,14 +431,20 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="flow-text">You can use rows and columns here to organize your footer content.</p>
+          <h5 class="white-text">Van Dacy</h5>
+          <blockquote class="footer-blockquote">
+            <p>Made by Van Dacy Corporation</p>
+          </blockquote>
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+        <div class="col l3 offset-l3 s12">
+          <h5 class="white-text">Connect @ Github</h5>
           <ul>
-            <li><a href="https://github.com/caespi24" class="grey-text"><i class="fa-brands fa-github"></i>  Github</a></li>
+            <li><a href="https://github.com/caespi24" class="grey-text"><i class="fa-brands fa-github"></i>  https://github.com/caespi24</a></li>
           </ul>
+        </div>
+      </div>
+      <div class="row center">
+          <p class="grey-text">© 2023 Copyright Text</p>
         </div>
       </div>
     </div>
